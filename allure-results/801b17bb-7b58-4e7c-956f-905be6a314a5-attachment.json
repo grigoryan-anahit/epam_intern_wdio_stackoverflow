@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//div[@id=\"popover-background\"]//button[@class=\"s-btn s-btn__primary js-submit js-trigger\"]"
+}

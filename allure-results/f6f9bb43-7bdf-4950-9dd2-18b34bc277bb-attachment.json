@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[class=\"js-added-filter flex--item s-tag\"]:last-of-type"
+}

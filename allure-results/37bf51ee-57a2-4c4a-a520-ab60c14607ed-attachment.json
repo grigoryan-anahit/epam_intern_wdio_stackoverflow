@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[class=\"js-added-filter flex--item s-tag\"]:first-of-type\"}\n  (Session info: chrome=95.0.4638.69)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x011A3AB3+2505395]\n\tOrdinal0 [0x0113AE41+2076225]\n\tOrdinal0 [0x01042498+1057944]\n\tOrdinal0 [0x0106CB74+1231732]\n\tOrdinal0 [0x01096D92+1404306]\n\tOrdinal0 [0x01085A2A+1333802]\n\tOrdinal0 [0x01095168+1397096]\n\tOrdinal0 [0x010858BB+1333435]\n\tOrdinal0 [0x010623E4+1188836]\n\tOrdinal0 [0x0106323F+1192511]\n\tGetHandleVerifier [0x0132CB36+1554566]\n\tGetHandleVerifier [0x013D4A0C+2242396]\n\tGetHandleVerifier [0x01230E0B+523099]\n\tGetHandleVerifier [0x0122FEB0+519168]\n\tOrdinal0 [0x011402FD+2097917]\n\tOrdinal0 [0x01144388+2114440]\n\tOrdinal0 [0x011444C2+2114754]\n\tOrdinal0 [0x0114E041+2154561]\n\tBaseThreadInitThunk [0x76C3FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77287A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77287A6E+238]\n"
+}

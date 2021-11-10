@@ -1,0 +1,167 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636524687294' stop='1636524690015'>
+    <name>Open stackoverfow website</name>
+    <title>Open stackoverfow website</title>
+    <test-cases>
+        <test-case start='1636524687294' status='passed' stop='1636524688261'>
+            <name>should check title</name>
+            <title>should check title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636524687295' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='47491563-2289-4464-8065-e24f8e636ec4-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636524687299' status='passed' stop='1636524688259'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1636524688261' status='passed' stop='1636524689761'>
+            <name>should go to products, jobs,jobs must have orange background</name>
+            <title>should go to products, jobs,jobs must have orange background</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636524688262' status='passed' stop='1636524688383'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='66b6b60e-694a-468d-918f-720ec8d960f9-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='31646317-26c7-4263-8a05-c76826fe2908-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524688398' status='passed' stop='1636524688445'>
+                    <name>POST /session/:sessionId/element/75451756-eeca-4e62-a645-29616c79be37/click</name>
+                    <title>POST /session/:sessionId/element/75451756-eeca-4e62-a645-29616c79be37/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636524688446' status='passed' stop='1636524688461'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c9ebc1cd-fabf-4f8a-8d2a-a7dc5b3c2819-attachment.json' type='application/json' size='107'/>
+                        <attachment title='Response' source='e70f50bf-f24c-4c05-8968-28f370b11288-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524688463' status='passed' stop='1636524689723'>
+                    <name>POST /session/:sessionId/element/04ee90b6-ecf2-4eff-be60-0de9ad37ee3d/click</name>
+                    <title>POST /session/:sessionId/element/04ee90b6-ecf2-4eff-be60-0de9ad37ee3d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636524689723' status='passed' stop='1636524689740'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a36810a9-780b-489b-a4ed-9093d36b19da-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='57b1b2d7-ad5b-4c56-9760-199a1109661f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524689743' status='passed' stop='1636524689758'>
+                    <name>GET /session/:sessionId/element/8e1157ab-119b-4a80-91ae-5c2f529c80af/css/backgroundColor</name>
+                    <title>GET /session/:sessionId/element/8e1157ab-119b-4a80-91ae-5c2f529c80af/css/backgroundColor</title>
+                    <attachments>
+                        <attachment title='Response' source='ee2e7145-c8e5-4754-9cd9-b3fb2916c495-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='1451d255-49df-46bf-8619-04b92cc54ec3-attachment.json' type='application/json' size='83'/>
+            </attachments>
+        </test-case>
+        <test-case start='1636524689762' status='broken' stop='1636524690015'>
+            <name>should click on backgrounds and set filters</name>
+            <title>should click on backgrounds and set filters</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636524689763' status='passed' stop='1636524689780'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ae7f9ce7-37f5-462a-adfb-e873c472128c-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='2c8cf107-efcf-4557-9a16-9d29658a33ea-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524689782' status='passed' stop='1636524689832'>
+                    <name>POST /session/:sessionId/element/929c6d96-6025-4afb-a758-552921389277/click</name>
+                    <title>POST /session/:sessionId/element/929c6d96-6025-4afb-a758-552921389277/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636524689832' status='passed' stop='1636524689846'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1073d606-9ab9-4296-b005-883eb2d807e2-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='be6d8208-6d4e-40a5-bbb7-aa6c136e00a2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524689847' status='passed' stop='1636524689865'>
+                    <name>POST /session/:sessionId/element/9e65f5df-2d0b-4e0b-865d-4b8f53b6279d/element</name>
+                    <title>POST /session/:sessionId/element/9e65f5df-2d0b-4e0b-865d-4b8f53b6279d/element</title>
+                    <attachments>
+                        <attachment title='Request' source='339502eb-5136-46d7-ab14-7240ad3a4038-attachment.json' type='application/json' size='141'/>
+                        <attachment title='Response' source='abed06bd-288b-41bb-a51b-416e36ec4b82-attachment.json' type='application/json' size='1148'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524689865' status='passed' stop='1636524690014'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c565a2e1-f358-46dc-aac5-2025834b9db6-attachment.png' type='image/png' size='167574'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Option with attribute "option=Junior" not found.</message>
+                <stack-trace>Error: Option with attribute "option=Junior" not found.
+                    at Element.selectByAttribute (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\stackoverflow\node_modules\webdriverio\build\commands\element\selectByAttribute.js:52:15)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Element.wrapCommandFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\stackoverflow\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\stackoverflow\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\stackoverflow\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async Context.&lt;anonymous> (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\stackoverflow\test\specs\example.e2e.js:18:8)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

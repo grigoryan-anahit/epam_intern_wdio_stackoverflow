@@ -1,0 +1,182 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636524758632' stop='1636524761286'>
+    <name>Open stackoverfow website</name>
+    <title>Open stackoverfow website</title>
+    <test-cases>
+        <test-case start='1636524758632' status='passed' stop='1636524759580'>
+            <name>should check title</name>
+            <title>should check title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636524758634' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ba647ce9-ee3e-4285-a209-80109f66f35d-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636524758637' status='passed' stop='1636524759578'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1636524759581' status='passed' stop='1636524760973'>
+            <name>should go to products, jobs,jobs must have orange background</name>
+            <title>should go to products, jobs,jobs must have orange background</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636524759582' status='passed' stop='1636524759700'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a968e0c7-1871-422d-b775-00e5dd8ea0b2-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='ff51a480-cacf-46fe-a948-75e6660767cc-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524759714' status='passed' stop='1636524759766'>
+                    <name>POST /session/:sessionId/element/43866362-e6d6-4a54-ac10-186d9c908c5f/click</name>
+                    <title>POST /session/:sessionId/element/43866362-e6d6-4a54-ac10-186d9c908c5f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636524759767' status='passed' stop='1636524759780'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c4058218-28f0-42e5-bebc-c8b1427df0d6-attachment.json' type='application/json' size='107'/>
+                        <attachment title='Response' source='7a8e5882-baca-4c65-9d36-0ee2f0592186-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524759782' status='passed' stop='1636524760943'>
+                    <name>POST /session/:sessionId/element/84361ffb-2f3d-4103-a32c-ac66738ab4bb/click</name>
+                    <title>POST /session/:sessionId/element/84361ffb-2f3d-4103-a32c-ac66738ab4bb/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636524760943' status='passed' stop='1636524760957'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='03d92685-8fdb-4469-b21a-0579660f147a-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='cdd29fd3-3437-4a2d-86ed-f579b5d68b72-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524760959' status='passed' stop='1636524760971'>
+                    <name>GET /session/:sessionId/element/ead67098-d724-409a-a9e6-186670e782c1/css/backgroundColor</name>
+                    <title>GET /session/:sessionId/element/ead67098-d724-409a-a9e6-186670e782c1/css/backgroundColor</title>
+                    <attachments>
+                        <attachment title='Response' source='96139dd7-3aef-47f2-aafd-e33223a882e8-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='7cb0b203-668f-4a5f-a3c6-09a554c14dee-attachment.json' type='application/json' size='83'/>
+            </attachments>
+        </test-case>
+        <test-case start='1636524760973' status='broken' stop='1636524761285'>
+            <name>should click on backgrounds and set filters</name>
+            <title>should click on backgrounds and set filters</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636524760974' status='passed' stop='1636524760988'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fb02d54d-4747-4676-b7c6-25b4d3932d90-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='80be67ed-3207-4a95-8649-7a26ad4708b0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524760990' status='passed' stop='1636524761042'>
+                    <name>POST /session/:sessionId/element/446c88d6-2d70-44d4-babd-6e44d61325e9/click</name>
+                    <title>POST /session/:sessionId/element/446c88d6-2d70-44d4-babd-6e44d61325e9/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636524761042' status='passed' stop='1636524761057'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5b15195e-78eb-4038-ac4b-c4bee9e00cb3-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='65e51878-430e-4562-9a54-433a2f2e3e2f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524761058' status='passed' stop='1636524761102'>
+                    <name>POST /session/:sessionId/element/ebd78b46-9923-4967-a734-e56e3012fdec/click</name>
+                    <title>POST /session/:sessionId/element/ebd78b46-9923-4967-a734-e56e3012fdec/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636524761102' status='passed' stop='1636524761113'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='80c500ba-3a42-431b-96f6-945309319a29-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='b971120f-84a9-4835-ac16-3a5207051db4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524761117' status='passed' stop='1636524761136'>
+                    <name>POST /session/:sessionId/element/ebd78b46-9923-4967-a734-e56e3012fdec/element</name>
+                    <title>POST /session/:sessionId/element/ebd78b46-9923-4967-a734-e56e3012fdec/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0df6b389-9d9f-4a5a-a2f7-c7b83edca5fe-attachment.json' type='application/json' size='141'/>
+                        <attachment title='Response' source='83282167-97e5-467d-9d4f-e10642cef5bd-attachment.json' type='application/json' size='1148'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636524761136' status='passed' stop='1636524761284'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2501273e-fc31-40fe-89e7-1dcf72250009-attachment.png' type='image/png' size='166540'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Option with attribute "option=Junior" not found.</message>
+                <stack-trace>Error: Option with attribute "option=Junior" not found.
+                    at Element.selectByAttribute (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\stackoverflow\node_modules\webdriverio\build\commands\element\selectByAttribute.js:52:15)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Element.wrapCommandFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\stackoverflow\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\stackoverflow\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\stackoverflow\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async Context.&lt;anonymous> (C:\Users\Anahit_Grigoryan1\WDIO_PROJECTS\homework\stackoverflow\test\specs\example.e2e.js:19:8)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
